@@ -1,0 +1,32 @@
+body{
+    background:linear-gradient(to bottom right, #5F0A87 0%, #A4508B 100%);
+    background-attachment: fixed;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    width: 510px;
+    height:310px;
+    flex-direction: column;
+    border-radius:5px;
+    box-shadow: 0 0 5px 1px;
+}
+.option
+{   
+    position: relative;
+    top: 20px;
+    left: 2px;
+    width: 300px;
+    height: 300px;
+}
+button{
+    display: block;
+    border:none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 100%;
+    font-size: 1.5rem;
+    background-color:lightgreen;
+}
