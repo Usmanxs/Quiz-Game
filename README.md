@@ -1,2 +1,2 @@
 # Quiz-Game
-simple js game
+simple js game and design
